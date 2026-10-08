@@ -37,7 +37,7 @@ test.describe("Hexsmith Works landing page", () => {
     );
     await expect(
       page.getByRole("link", { name: "Contact Hexsmith" }),
-    ).toHaveAttribute("href", /^mailto:bruno\.gomes@hexsmith\.tech/);
+    ).toHaveAttribute("href", /^mailto:contact@hexsmith\.tech/);
   });
 
   test("mobile navigation opens and follows section links", async ({ page }) => {
@@ -64,7 +64,7 @@ test.describe("Hexsmith Works landing page", () => {
     await expect(menu).toBeVisible();
     await expect(emailCta).toHaveAttribute(
       "href",
-      /^mailto:bruno\.gomes@hexsmith\.tech/,
+      /^mailto:contact@hexsmith\.tech/,
     );
 
     const dimensions = await menu.evaluate((element) => ({

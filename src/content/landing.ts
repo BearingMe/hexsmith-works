@@ -71,4 +71,4 @@ export const capabilities = [
   },
 ] as const;
 
-export const email = "bruno.gomes@hexsmith.tech";
+export const email = "contact@hexsmith.tech";
