@@ -51,7 +51,7 @@ export default function HomePage() {
               </p>
               <div className="hero-actions">
                 <Link
-                  className="button button-primary"
+                  className="button button-primary button-default"
                   href={`mailto:${email}?subject=${encodeURIComponent("Let's talk about Forge")}`}
                 >
                   Get in touch <ArrowUpRight aria-hidden="true" size={16} />

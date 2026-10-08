@@ -74,7 +74,7 @@ export function SiteHeader() {
             </nav>
             <SheetClose asChild>
               <Link
-                className="button button-primary mobile-sheet-cta"
+                className="button button-primary button-default mobile-sheet-cta"
                 href={`mailto:${email}?subject=${encodeURIComponent("Let's talk about software verification")}`}
               >
                 Get in touch <ArrowUpRight aria-hidden="true" size={16} />
