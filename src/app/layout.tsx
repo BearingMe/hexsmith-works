@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://hexsmith.tech"),
+  metadataBase: new URL("https://pages.hexsmith.tech"),
   title: "Hexsmith Works | Software Reliability for the AI Era",
   description:
     "Hexsmith Works is exploring the next generation of software verification. Meet Forge, an AI-assisted approach to auditing, challenging, and strengthening AI-generated code.",
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     title: "Hexsmith Works | Software Reliability for the AI Era",
     description:
       "Meet Forge: an AI-assisted approach to inspecting, challenging, and strengthening software changes.",
-    url: "https://hexsmith.tech",
+    url: "https://pages.hexsmith.tech",
     siteName: "Hexsmith Works",
     locale: "en_US",
     type: "website",

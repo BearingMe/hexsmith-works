@@ -34,9 +34,9 @@ The workflow in `.github/workflows/deploy-pages.yml` validates pull requests tar
 Before the first deployment:
 
 1. Push this repository to GitHub and select **Settings → Pages → Build and deployment → GitHub Actions** as the source.
-2. The export includes `public/CNAME`, which configures the site for `hexsmith.tech`. Configure that domain's DNS as GitHub Pages instructs, then verify the custom domain and enable HTTPS in the repository's Pages settings.
+2. The export includes `public/CNAME`, which configures the site for `pages.hexsmith.tech`. Point that hostname's DNS to GitHub Pages, then verify the custom domain and enable HTTPS in the repository's Pages settings.
 
-The repository currently has no GitHub remote configured. The `hexsmith.tech` domain must be under your control and pointed to this Pages site before the deployed site is reachable there.
+The canonical site URL is `https://pages.hexsmith.tech/`. The repository URL (`https://bearingme.github.io/hexsmith-works/`) is not the canonical address. DNS and the custom domain in Pages settings must remain aligned with `public/CNAME`.
 
 ## Stack
 

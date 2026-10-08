@@ -29,7 +29,7 @@ test.describe("Hexsmith Works landing page", () => {
 
     await expect(page.locator('link[rel="canonical"]')).toHaveAttribute(
       "href",
-      /^https:\/\/hexsmith\.tech\/?$/,
+      /^https:\/\/pages\.hexsmith\.tech\/?$/,
     );
     await expect(page.locator('meta[property="og:image"]')).toHaveAttribute(
       "content",
